@@ -16,7 +16,7 @@
 ### Problem Statement
 
 #### Estimate 
-Despite having only ~1.4 million vehicles, Ethiopia faces ~14,000 traffic deaths and ~45,000 injuries yearly (2024–2025). Fatal crashes nearly doubled from 2,161 in 2008 to 4,597 in 2018. Although there's been a slight drop to ~3,149 crashes in 2022, the risk remains high, especially for pedestrians (71% of deaths).
+Despite having only around 1.4 million registered vehicles, Ethiopia experiences approximately 14,000 traffic-related deaths and 45,000 injuries each year (2024–2025 estimates). The situation remains critical, with pedestrians accounting for over 70% of all road traffic deaths—making them the most vulnerable group on the roads.
 #### recorded
 According to the Ethiopian Federal Police Commission, there were 4,161 road traffic fatalities recorded during the 2021/22 fiscal year. While national statistics for injuries and pedestrian death share are not officially published, the World Health Organization’s Global Status Report on Road Safety (2018) previously noted significant risks related to pedestrian safety and head injuries, highlighting the importance of safer road infrastructure and driver training.
 
