@@ -98,6 +98,6 @@ SmartDriveGov is a government-managed platform to modernize the regulation and m
 - **Backend:** Node.js, Express.js  
 - **Database:** MYSQL 
 - **Authentication:** Fayda Digital ID integration, JSON Web Tokens (JWT)  
-- **Hosting:** Yegara Hosting (cPanel with custom domain routing)  
+- **Hosting:** Netlify
 - **Subdomain Management:** Dynamic DNS or NGINX with automation  
 - **Tools & Platforms:** GitHub, Postman, Visual Studio Code, Figma (for UI design)
