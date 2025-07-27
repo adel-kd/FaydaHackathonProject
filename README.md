@@ -1,11 +1,15 @@
-# Project Title: SmartDriveGov – Driving School Management and Licensing System
+# SmartDriveGov – Driving School Management and Licensing System
+
+## Project Catagory
+
+ - Smart Governance 
+
 
 ## Contributors:
 - Adel Kedir  
-- [Team Member 2 Full Name]  
-- [Team Member 3 Full Name]  
+- Mohammed Seid  
 
----
+
 
 ## Project Synopsis
 
