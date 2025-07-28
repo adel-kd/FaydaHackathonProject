@@ -40,7 +40,7 @@ const SignIn = () => {
               placeholder='Enter your password'
             />
           </div>
-          <button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded-md">
+          <button type="submit" className="bg-blue-600 text-white px-42 py-2 rounded-md">
             Sign In
           </button>
         </form>
