@@ -17,7 +17,7 @@ const SupportCategory = () => {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-shadow cursor-pointer">
+            <div className="bg-white rounded-2xl shadow-lg p-8 hover:transform hover:scale-105 hover:shadow-xl transition-all cursor-pointer">
               <div className="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mb-6">
                 <i className="fas fa-tools text-2xl text-blue-600"></i>
               </div>
@@ -54,7 +54,7 @@ const SupportCategory = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-shadow cursor-pointer">
+            <div className="bg-white rounded-2xl shadow-lg p-8 hover:transform hover:scale-105 hover:shadow-xl transition-all cursor-pointer">
               <div className="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center mb-6">
                 <i className="fas fa-exclamation-triangle text-2xl text-orange-600"></i>
               </div>
@@ -91,7 +91,7 @@ const SupportCategory = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-shadow cursor-pointer">
+            <div className="bg-white rounded-2xl shadow-lg p-8 hover:transform hover:scale-105 hover:shadow-xl transition-all cursor-pointer">
               <div className="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mb-6">
                 <i className="fas fa-question-circle text-2xl text-purple-600"></i>
               </div>

@@ -23,11 +23,11 @@ const FAQ = () => {
     {faqData.map((faq, index) => (
     <div key={index} className="border border-gray-200 rounded-xl overflow-hidden">
     <button
-    className="w-full px-6 py-4 text-left bg-white hover:bg-gray-50 transition-colors cursor-pointer whitespace-nowrap"
+    className="w-full px-6 py-4 text-left bg-white hover cursor-pointer whitespace-nowrap"
     onClick={() => toggleFaq(index)}
     >
     <div className="flex justify-between items-center">
-    <h3 className="text-lg font-semibold text-gray-900 whitespace-normal">
+    <h3 className="font-semibold text-gray-900 whitespace-normal">
     {faq.question}
     </h3>
     <i className={`fas fa-chevron-${faqOpen === index ? 'up' : 'down'} text-gray-500 ml-4 flex-shrink-0`}></i>
