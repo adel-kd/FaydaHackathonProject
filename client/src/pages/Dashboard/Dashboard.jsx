@@ -2,7 +2,7 @@ import { useAuth } from "../../../Hook/useAuth.js";
 
 //We are just testing the useAuth hook here
 //This component will display user information if authenticated, otherwise show unauthorized message
-export const Dashboard = () => {
+const Dashboard = () => {
   const user = useAuth();
 
   if (!user) {
@@ -20,3 +20,5 @@ export const Dashboard = () => {
     </div>
   );
 }
+
+export default Dashboard;
