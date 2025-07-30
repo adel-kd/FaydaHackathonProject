@@ -10,7 +10,7 @@ export default function Temporary() {
         <h2 className="text-2xl font-semibold mb-2">🧱 How the System Works (Wireframe Flow)</h2>
         <p className="mb-2">
           - Training schools register through a **private onboarding system**.  
-          - When approved, the system **automatically generates a subdomain portal** for each school (e.g., `schoolname.adelkedir.com`).  
+          - When approved, the system **automatically generates a subdomain portal** for each school (e.g., `schoolname.smartdrive.gov.et`).  
           - School admins use their portal to **register students**, manage attendance, and schedule exams.  
           - Before issuing a license, the system uses **Fayda eSignet** to authenticate trainees and fetch their verified identity.  
           - Once verified, students are certified and issued a digital or physical license.

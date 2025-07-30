@@ -223,10 +223,10 @@ const [formData, setFormData] = useState({
                     Phone Number
                     </h3>
                     <a
-                    href="tel:+1-555-123-4567"
+                    href="#"
                     className="text-blue-600 hover:text-blue-800 cursor-pointer"
                     >
-                    +1 (555) 123-4567
+                    +251*******
                     </a>
                 </div>
                 </div>
@@ -243,7 +243,7 @@ const [formData, setFormData] = useState({
                     href="mailto:info@fayda.gov"
                     className="text-blue-600 hover:text-blue-800 cursor-pointer"
                     >
-                    info@fayda.gov
+                    info@smartdrive.gov
                     </a>
                 </div>
                 </div>

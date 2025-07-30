@@ -35,7 +35,7 @@ const SupportCategory = () => {
                     href="tel:+1-555-123-4567"
                     className="text-blue-600 hover:text-blue-800 cursor-pointer"
                   >
-                    +1 (555) 123-4567
+                    +251*******
                   </a>
                 </div>
                 <div className="flex items-center">
@@ -44,7 +44,7 @@ const SupportCategory = () => {
                     href="mailto:support@fayda.gov"
                     className="text-blue-600 hover:text-blue-800 cursor-pointer"
                   >
-                    support@fayda.gov
+                    support@smartdrive.gov
                   </a>
                 </div>
                 <div className="flex items-center">
@@ -72,7 +72,7 @@ const SupportCategory = () => {
                     href="tel:+1-555-987-6543"
                     className="text-green-600 hover:text-green-800 cursor-pointer"
                   >
-                    +1 (555) 987-6543
+                    +251*******
                   </a>
                 </div>
                 <div className="flex items-center">
@@ -81,7 +81,7 @@ const SupportCategory = () => {
                     href="mailto:seriousIssues@fayda.gov"
                     className="text-green-600 hover:text-green-800 cursor-pointer"
                   >
-                    seriousIssues@fayda.gov
+                    seriousIssues@smartdrive.gov
                   </a>
                 </div>
                 <div className="flex items-center">
@@ -118,7 +118,7 @@ const SupportCategory = () => {
                     href="mailto:info@fayda.gov"
                     className="text-purple-600 hover:text-purple-800 cursor-pointer"
                   >
-                    info@fayda.gov
+                    info@smartdrive.gov
                   </a>
                 </div>
                 <div className="flex items-center">
