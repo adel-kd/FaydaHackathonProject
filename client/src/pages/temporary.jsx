@@ -15,39 +15,7 @@ export default function Temporary() {
           - Before issuing a license, the system uses <strong>Fayda eSignet</strong> to authenticate trainees and fetch their verified identity.<br />
           - Once verified, students are certified and issued a digital or physical license.
         </p>
-
-        <div className="bg-gray-100 p-4 rounded font-mono whitespace-pre">
-{`
-[User Registers Training School]
-        ↓
-[System auto-generates subdomain portal]
-        ↓
-[Admin login to dashboard]
-        ↓
-[Add students → Manage attendance → Send to exam]
-        ↓
-[Before Certification → User ID Verified by eSignet]
-        ↓
-[Fetch name, age, photo from Fayda DB]
-        ↓
-[User Certified + License Issued]
-`}
-        </div>
-      </section>
-
-      <section>
-        <h2 className="text-2xl font-semibold mb-2 text-sky-600">🔐 eSignet Integration</h2>
-        <p className="mb-2">
-          The system integrates with <strong>Fayda’s eSignet</strong> API for secure and reliable identity verification. Authentication is done using <strong>FIN (Federal Identification Number)</strong> and <strong>OTP</strong>.
-        </p>
-        <ul className="list-disc pl-6 text-gray-800">
-          <li>✅ eSignet authentication is implemented and tested separately.</li>
-          <li>📍 The integration is currently placed in a temporary test route for demonstration purposes.</li>
-          <li>🔗 Later, it will be merged into the certification step for real student verification.</li>
-        </ul>
-      </section>
-
-      <section>
+ <section>
         <h2 className="text-2xl font-semibold mb-2 text-sky-600">📊 Current Status</h2>
         <table className="table-auto border border-gray-300 text-left w-full">
           <thead>
@@ -88,6 +56,40 @@ export default function Temporary() {
           </tbody>
         </table>
       </section>
+      <br />
+       <h2 className="text-2xl font-semibold mb-2 text-sky-600">Flow </h2>
+        <div className="bg-gray-100 p-4 rounded font-mono whitespace-pre">
+{`
+[User Registers Training School]
+        ↓
+[System auto-generates subdomain portal]
+        ↓
+[Admin login to dashboard]
+        ↓
+[Add students → Manage attendance → Send to exam]
+        ↓
+[Before Certification → User ID Verified by eSignet]
+        ↓
+[Fetch name, age, photo from Fayda DB]
+        ↓
+[User Certified + License Issued]
+`}
+        </div>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-2 text-sky-600">🔐 eSignet Integration</h2>
+        <p className="mb-2">
+          The system integrates with <strong>Fayda’s eSignet</strong> API for secure and reliable identity verification. Authentication is done using <strong>FIN (Federal Identification Number)</strong> and <strong>OTP</strong>.
+        </p>
+        <ul className="list-disc pl-6 text-gray-800">
+          <li>✅ eSignet authentication is implemented and tested separately.</li>
+          <li>📍 The integration is currently placed in a temporary test route for demonstration purposes.</li>
+          <li>🔗 Later, it will be merged into the certification step for real student verification.</li>
+        </ul>
+      </section>
+
+     
     </div>
   );
 }
