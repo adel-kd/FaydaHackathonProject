@@ -20,19 +20,19 @@ const Navbar = () => {
 
        <Link to="/home" className="flex items-center">
             <img src={blue_logo} alt="Logo" className="w-10 h-10 mr-2" />
-            <span className="text-xl font-bold">License Management</span>
+            <span className="text-xl font-bold text-blue-500">License Management</span>
        </Link>
        <ul className="hidden md:flex items-center space-x-8 md:pl-28">
            <li className="group"><Link to="/home">Home</Link>
            <div className="bg-blue-600 h-0.5 w-0 group-hover:w-full transition-all duration-300" />
            </li>
-            <li className="group"><Link to="/about">About</Link>
+            <li className="group"><Link to="#about">About</Link>
            <div className="bg-blue-600 h-0.5 w-0 group-hover:w-full transition-all duration-300" />
            </li>
            <li className="group"><Link to="/contact">Contact</Link>
            <div className="bg-blue-600 h-0.5 w-0 group-hover:w-full transition-all duration-300" />
            </li>
-           <li className="group"><Link to="/docs">Docs</Link>
+           <li className="group"><Link to="#docs">Docs</Link>
            <div className="bg-blue-600 h-0.5 w-0 group-hover:w-full transition-all duration-300" />
            </li>
        </ul>
@@ -48,9 +48,9 @@ const Navbar = () => {
        <div className={`mobile-menu absolute top-[70px] left-0 w-full bg-white shadow-sm p-6 ${isOpen ? "block" : "hidden"} md:hidden`}>
            <ul className="flex flex-col space-y-4 text-lg">
                <li><Link to="/home" className="text-sm">Home</Link></li>
-               <li><Link to="/about" className="text-sm">About</Link></li>
+               <li><Link to="#about" className="text-sm">About</Link></li>
                <li><Link to="/contact" className="text-sm">Contact</Link></li>
-               <li><Link to="/docs" className="text-sm">Docs</Link></li>
+               <li><Link to="#docs" className="text-sm">Docs</Link></li>
            </ul>
 
            <button type="button" className="bg-white text-gray-600 border border-gray-300 mt-6 text-sm hover:bg-gray-50 active:scale-95 transition-all w-40 h-11 rounded-full">
