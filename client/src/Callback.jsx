@@ -7,13 +7,13 @@ const Callback = () => {
 
   useEffect(() => {
     const code = new URLSearchParams(window.location.search).get("code");
-    console.log("👉 Got code from VeriFayda:", code);
+    console.log("Got code from VeriFayda:", code);
 
     if (code) {
       axios
-        .post("/api/auth/callback", { code }) // ✅ This goes through Vite proxy now
+        .post("/api/auth/callback", { code }) // This goes through Vite proxy now
         .then((res) => {
-          console.log("✅ Token from server:", res.data.token);
+          console.log("Token from server:", res.data.token);
           localStorage.setItem("token", res.data.token);
           navigate("/dashboard");
         })

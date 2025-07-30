@@ -1,3 +1,3 @@
 Server/node_modules/
-.env
+Server/.env
 .DS_Store

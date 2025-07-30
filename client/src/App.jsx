@@ -4,8 +4,8 @@ import SignIn from "./pages/SignIn";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Dashboard from "./pages/Dashboard";
 import Callback from "./Callback";
+import { Dashboard } from "./pages/Dashboard/Dashboard";
 
 
 const App = () => {

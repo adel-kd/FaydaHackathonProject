@@ -12,10 +12,6 @@ export const faqData = [
     answer: "Yes. Police can use the verification portal to instantly confirm license authenticity using the license number or Fayda ID."
   },
   {
-    question: "Is the platform secure?",
-    answer: "Absolutely. It uses encrypted data storage, real-time API verification, and access controls to ensure high security."
-  },
-  {
     question: "Can driving schools register trainees online?",
     answer: "Yes. Driving schools have a dedicated portal to register trainees, track their learning progress, and prepare them for the official exam."
   },
