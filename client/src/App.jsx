@@ -14,7 +14,7 @@ const location = useLocation();
  <div className="min-h-screen bg-white">
   {location.pathname !== "/admin" && <Navbar />}
     <Routes>
-      <Route path="/home" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="/signin" element={<SignIn />} />
       <Route path="/callback" element={<Callback />} />
       <Route path="/contact" element={<Contact />} />

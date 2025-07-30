@@ -17,14 +17,14 @@ const Navbar = () => {
       </div>
 
       <nav className="relative h-[70px] flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 bg-white text-gray-900 transition-all shadow">
-        <Link to="/home" className="flex items-center">
+        <Link to="/" className="flex items-center">
           <img src={blue_logo} alt="Logo" className="w-10 h-10 mr-2" />
           <span className="text-xl font-bold text-blue-500">SmartDriveGOV 🇪🇹</span>
         </Link>
 
         <ul className="hidden md:flex items-center space-x-8 md:pl-28">
           <li className="group">
-            <Link to="/home">Home</Link>
+            <Link to="/">Home</Link>
             <div className="bg-blue-600 h-0.5 w-0 group-hover:w-full transition-all duration-300" />
           </li>
           <li className="group">
