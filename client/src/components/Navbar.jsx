@@ -8,14 +8,6 @@ const Navbar = () => {
 
   return (
     <header className="bg-white shadow-sm border-b">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          <Link to="/" className="flex items-center space-x-2">
-            <span className="text-2xl font-bold text-blue-600">SmartDriveGOV 🇪🇹</span>
-          </Link>
-        </div>
-      </div>
-
       <div className="text-sm text-white w-full border-b border-gray-500 shadow-stone-50">
         <div className="text-center font-medium py-2 bg-gradient-to-r from-violet-500 via-[#9938CA] to-[#E0724A]">
           <p>
@@ -27,7 +19,7 @@ const Navbar = () => {
       <nav className="relative h-[70px] flex items-center justify-between px-6 md:px-16 lg:px-24 xl:px-32 py-4 bg-white text-gray-900 transition-all shadow">
         <Link to="/home" className="flex items-center">
           <img src={blue_logo} alt="Logo" className="w-10 h-10 mr-2" />
-          <span className="text-xl font-bold text-blue-500">License Management</span>
+          <span className="text-xl font-bold text-blue-500">SmartDriveGOV 🇪🇹</span>
         </Link>
 
         <ul className="hidden md:flex items-center space-x-8 md:pl-28">
