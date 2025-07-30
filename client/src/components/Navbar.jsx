@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="flex items-center">
     <div className="flex-shrink-0">
     <Link to="/" className="cursor-pointer">
-    <span className="text-2xl font-bold text-blue-600">License</span>
+    <span className="text-2xl font-bold text-blue-600">SmartDriveGOV 🇪🇹</span>
     </Link>
     </div>
     </div>
