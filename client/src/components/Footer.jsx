@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="grid md:grid-cols-4 gap-8">
     <div className="col-span-1">
     <div className="flex items-center mb-4">
-    <span className="text-2xl font-bold text-blue-400">License</span>
+    <span className="text-2xl font-bold text-blue-400">SmartDriveGOV</span>
     </div>
     <p className="text-gray-400 leading-relaxed">
     Modernizing government services through innovative digital solutions for driver's license management.
@@ -50,7 +50,7 @@ const Footer = () => {
     </div>
     </div>
     <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-    <p>&copy; 2025 License. All rights reserved. | Privacy Policy | Terms of Service</p>
+    <p>&copy; 2025 SmartDriveGOV. All rights reserved. | Privacy Policy | Terms of Service</p>
     </div>
     </div>
 </footer>

@@ -7,7 +7,8 @@ import Footer from "./components/Footer";
 import Callback from "./Callback";
 import Temporary from "./pages/temporary";    
 import Dashboard from "./pages/Dashboard/Dashboard";
-
+import About from "./pages/about";
+import Docs from "./pages/docs";
 const App = () => {
 const location = useLocation();
   return (
@@ -20,6 +21,8 @@ const location = useLocation();
       <Route path="/contact" element={<Contact />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/temporary" element={<Temporary />} />
+       <Route path="/docs" element={<Docs />} />
+       <Route path="/about" element={<About />} />
     </Routes>
     {location.pathname !== "/admin" && <Footer />}
 </div>

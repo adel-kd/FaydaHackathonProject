@@ -28,7 +28,7 @@ const Navbar = () => {
             <div className="bg-blue-600 h-0.5 w-0 group-hover:w-full transition-all duration-300" />
           </li>
           <li className="group">
-            <Link to="#about">About</Link>
+            <Link to="/about">About</Link>
             <div className="bg-blue-600 h-0.5 w-0 group-hover:w-full transition-all duration-300" />
           </li>
           <li className="group">
@@ -36,7 +36,7 @@ const Navbar = () => {
             <div className="bg-blue-600 h-0.5 w-0 group-hover:w-full transition-all duration-300" />
           </li>
           <li className="group">
-            <Link to="#docs">Docs</Link>
+            <Link to="/docs">Docs</Link>
             <div className="bg-blue-600 h-0.5 w-0 group-hover:w-full transition-all duration-300" />
           </li>
         </ul>
@@ -71,7 +71,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="#about" className="text-sm">
+              <Link to="/about" className="text-sm">
                 About
               </Link>
             </li>
@@ -80,8 +80,19 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
-            <li>
-              <Link to="#docs" className="text-sm">
+           
+             <li>
+              <Link to="/announcment" className="text-sm">
+                Announcment
+              </Link>
+            </li>
+             <li>
+              <Link to="/exams" className="text-sm">
+                Exams
+              </Link>
+            </li>
+             <li>
+              <Link to="/docs" className="text-sm">
                 Docs
               </Link>
             </li>
