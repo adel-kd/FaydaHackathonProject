@@ -41,6 +41,19 @@ const handleLogin = (e) => {
         <img className="h-full" src={mobile_hero_img} alt="Mobile Hero" />
     </div>
 
+ <div className="p-4 bg-red-50 border border-red-50 rounded-lsm shadow-md flex flex-col items-center justify-center w-full md:w-1/2">
+      <p className="text-red-600 font-semibold">
+        Fayda judges, please check this first:
+      </p>
+      <button
+        type="button"
+        className="bg-red-600 text-white mt-4 w-40 h-11 rounded-full hover:bg-blue-700 active:scale-95 transition-all"
+        onClick={() => navigate("/temporary")}
+      >
+       Tempo Button
+      </button>
+    </div>
+
     <div className="w-full flex flex-col items-center justify-center">
 
         <form onSubmit={handleLogin} className="md:w-96 w-80 flex flex-col items-center justify-center">
