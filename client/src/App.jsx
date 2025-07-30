@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Callback from "./Callback";
 import Temporary from "./pages/temporary";    
-
+import Dashboard from "./pages/Dashboard";
 const App = () => {
 const location = useLocation();
   return (

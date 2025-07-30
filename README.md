@@ -99,5 +99,108 @@ SmartDriveGov is a government-managed platform to modernize the regulation and m
 - **Database:** MYSQL 
 - **Authentication:** Fayda Digital ID integration, JSON Web Tokens (JWT)  
 - **Hosting:** Netlify
+**Deployment**: Docker, Docker Compose
 - **Subdomain Management:** Dynamic DNS or NGINX with automation  
 - **Tools & Platforms:** GitHub, Postman, Visual Studio Code, Figma (for UI design)
+
+
+
+
+## 🚀 Installation and Deployment
+
+This section guides you through installing dependencies, running the app locally, and deploying with Docker.
+
+---
+
+### 🔧 Prerequisites
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v18+)
+- [npm](https://www.npmjs.com/)
+- [Docker](https://www.docker.com/) & Docker Compose
+
+---
+
+### 📦 Installing Dependencies
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/adel-kd/FaydaHackathonProject.git
+   cd fayda-project
+
+2. **Install frontend dependencies:**
+   cd client
+   npm install
+3. **Install backend dependencies:**
+   cd ../server
+   npm install
+
+### 🧪 Running the App Locally
+
+1. **Start the backend server:**
+
+    cd server
+    node server.js
+2. **Start the frontend (in a new terminal):**
+   cd client 
+   npm run dev
+3. **Visit in browser:**
+
+Frontend: http://localhost:3000
+
+Backend: http://localhost:5000
+
+
+
+### 📦 Deploying with Docker
+ 1. **Ensure Dockerfile and docker-compose.yml exist at the project root.**
+ 2.**Build and start the containers:**
+
+    docker compose up --build
+
+
+3. **Access the app:**
+   http://localhost:3000
+4. **Stop the containers:**
+    docker compose down
+
+### 📁 Environment Variables
+
+Create .env files in both client and server folders:
+
+* 📂 client/.env
+
+VITE_CLIENT_ID=crXYIYg2cJiNTaw5t-peoPzCRo-3JATNfBd5A86U8t0
+VITE_REDIRECT_URI=http://localhost:3000/callback
+VITE_AUTHORIZATION_ENDPOINT=https://esignet.ida.fayda.et/authorize
+
+* 
+📂 server/.env
+
+CLIENT_ID=crXYIYg2cJiNTaw5t-peoPzCRo-3JATNfBd5A86U8t0
+CLIENT_SECRET=                         # (Leave blank; PRIVATE_KEY will be used)
+REDIRECT_URI=http://localhost:3000/callback
+TOKEN_ENDPOINT=https://esignet.ida.fayda.et/v1/esignet/oauth/v2/token
+USERINFO_ENDPOINT=https://esignet.ida.fayda.et/v1/esignet/oidc/userinfo
+PRIVATE_KEY=<Paste full JSON from Telegram here, exactly as-is>
+ALGORITHM=RS256
+CLIENT_ASSERTION_TYPE=urn:ietf:params:oauth:client-assertion-type:jwt-bearer
+JWT_SECRET=2829mysecretkey
+PORT=5000
+
+
+### 📂 Folder Structure
+
+fayda-project/
+├── client/             # React frontend
+│   └── .env
+|   └── Dockerfile
+├── server/             # Node.js backend
+│   └── .env
+|   └── Dockerfile
+├── docker-compose.yml
+└── README.md
+
+
