@@ -41,7 +41,7 @@ const handleLogin = (e) => {
         <img className="h-full" src={mobile_hero_img} alt="Mobile Hero" />
     </div>
 
- <div className="p-4 bg-red-50 border border-red-50 rounded-lsm shadow-md flex flex-col items-center justify-center w-full md:w-1/2">
+ {/* <div className="p-4 bg-red-50 border border-red-50 rounded-lsm shadow-md flex flex-col items-center justify-center w-full md:w-1/2">
       <p className="text-red-600 font-semibold">
         Fayda judges, please check this first:
       </p>
@@ -52,7 +52,7 @@ const handleLogin = (e) => {
       >
        Tempo Button
       </button>
-    </div>
+    </div> */}
 
     <div className="w-full flex flex-col items-center justify-center">
 

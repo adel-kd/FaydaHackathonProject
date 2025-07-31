@@ -39,6 +39,14 @@ const Navbar = () => {
             <Link to="/docs">Docs</Link>
             <div className="bg-blue-600 h-0.5 w-0 group-hover:w-full transition-all duration-300" />
           </li>
+            <li className="group">
+            <Link to="/exam">Exam</Link>
+            <div className="bg-blue-600 h-0.5 w-0 group-hover:w-full transition-all duration-300" />
+          </li>
+            <li className="group">
+            <Link to="/announcment">Announcment</Link>
+            <div className="bg-blue-600 h-0.5 w-0 group-hover:w-full transition-all duration-300" />
+          </li>
         </ul>
 
         <button

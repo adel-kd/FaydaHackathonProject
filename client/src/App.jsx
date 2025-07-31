@@ -9,6 +9,10 @@ import Temporary from "./pages/temporary";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import About from "./pages/about";
 import Docs from "./pages/docs";
+import AdminPortal from "./pages/AdminPortal";
+import SubdomainDemo from "./pages/SubdomainDemo";
+import NotFound from "./pages/NotFound";
+import Exam from "./pages/exam";
 const App = () => {
 const location = useLocation();
   return (
@@ -21,8 +25,12 @@ const location = useLocation();
       <Route path="/contact" element={<Contact />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/temporary" element={<Temporary />} />
-       <Route path="/docs" element={<Docs />} />
-       <Route path="/about" element={<About />} />
+        <Route path="/docs" element={<Docs />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/admin" element={<AdminPortal />} />
+        <Route path="/schools" element={<SubdomainDemo />} />
+        <Route path="/exam" element={<Exam />} />
+        <Route path="*" element={<NotFound />} />
     </Routes>
     {location.pathname !== "/admin" && <Footer />}
 </div>
